@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121314;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: hwb(56 12% 8%);
+  color: #0f0f0f;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #034982e1,
+              0 0 20px #034982e1;
+  transition: all 0.3s ease-in-out;
+
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: hsl(0, 0%, 3%);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  background: #f6f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #aa12c8e1,
+              0 0 20px #aa12c8e1;
+  transition: all 0.3s ease-in-out;
+}
+
+h1, h2, h3 {
+  color: lab(1.37% 0 0);
+}
+
+button {
+  background:  hwb(56 12% 8%);
+  color: #070707;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: hwb(56 2% 63%);;
+}
+
+button:hover {
+  background:  lab(52.69% -8.69 57.27);
+}
+
+footer {
+  text-align: center;
+  background:  hwb(56 12% 8%);
+  color: #090909;
+  padding: 10px 0;
+  margin-top: 20px;
+}
